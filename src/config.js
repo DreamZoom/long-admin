@@ -30,6 +30,11 @@ export default {
             path: "client",
             icon: "home",
             component: () => import("./views/client/index")
+        }, {
+            name: "站点管理",
+            path: "site",
+            icon: "home",
+            component: () => import("./views/site/index")
         }]
     }, {
         path: "/login",
